@@ -1,0 +1,2 @@
+# Ignore files created during dev and testing
+*.egg-info/
