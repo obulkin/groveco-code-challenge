@@ -45,7 +45,7 @@ def main():
                  ' tool. Please try again.')
 
     # Use Geocoder library (https://github.com/DenisCarriere/geocoder) to
-    # convert address or zip into coordinates via Google Maps API
+    # convert address or zip into coordinates via Google Maps Geocoding API
     try:
         geo_data = google_geo(starting_location)
     except RequestException:
