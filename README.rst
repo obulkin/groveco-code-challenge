@@ -46,7 +46,7 @@ Usage instructions can be found in the
 Unit Tests
 ==========
 
-To run unit tests::
+To run unit tests, first install the package and then::
 
     cd {package_directory}
-    python -m unittest -v test_find_store
+    python -m unittest -bv find_store.test_find_store

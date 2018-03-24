@@ -1,2 +1,4 @@
 # Ignore files created during dev and testing
+build/
+dist/
 *.egg-info/

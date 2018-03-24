@@ -7,5 +7,5 @@ setup(
     entry_points={
         'console_scripts': ['find_store = find_store.__main__:main'],
     },
-    install_requires=['geocoder', 'unicodecsv'],
+    install_requires=['geocoder', 'mock', 'unicodecsv'],
 )

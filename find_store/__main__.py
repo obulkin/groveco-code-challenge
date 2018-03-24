@@ -6,7 +6,6 @@ from os import path
 from requests import RequestException
 import sys
 from unicodecsv import DictReader
-import pdb
 
 EARTH_RADIUS_KM = 6371
 EARTH_RADIUS_MI = 3959
@@ -58,7 +57,7 @@ def main():
                  ' before trying again.')
 
     script_path = path.abspath(path.dirname(__file__))
-    data_path = path.join(script_path, '../data/store_locations.csv')
+    data_path = path.join(script_path, 'data/store_locations.csv')
     closest_store = {}
     closest_distance = EARTH_RADIUS_MI * pi
     with open(data_path, 'rU') as store_data_file:
